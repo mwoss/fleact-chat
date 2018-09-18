@@ -1,11 +1,10 @@
 import React from 'react';
+import DataProvider from "./DataProvider";
+import Table from "./Table";
 
-class App extends React.Component {
-
-
-    render() {
-        return <h1>Hello World</h1>;
-    }
-}
+const App = () => (
+    <DataProvider endpoint="api/lead/"
+                  render={data => <Table data={data}/>}/>
+);
 
 export default App

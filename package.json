@@ -20,11 +20,11 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-router": "^4.3.1",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "react-router-dom": "^4.3.1",
     "weak-key": "^1.0.1"
   }
 }
